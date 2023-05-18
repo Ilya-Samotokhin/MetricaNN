@@ -1,0 +1,77 @@
+.container {
+  font-family: 'Manrope', sans-serif;
+  width: 1150px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.acquaintance-header {
+  width: 956px;
+  height: 120px;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 60px;
+  color: #121212;
+  margin-bottom: 30px;
+}
+
+.acquaintance-back {
+  position: relative;
+  background-image: url(../resurces/Rectangle\ 1.png);
+  width: 1150px;
+  height: 500px;
+  margin-bottom: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.aquaintance-description {
+  display: block;
+  position: absolute;
+  width: 430px;
+  height: 81px;
+  left: 40px;
+  bottom: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  letter-spacing: -0.03em;
+}
+
+.about-us {
+  margin-bottom: 150px;
+}
+
+.about-us-header {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #121212;
+  margin-bottom: 30px;
+}
+
+.about-us-descr {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 62px;
+  width: 1048px;
+  height: 366px;
+  color: #121212;
+  margin-bottom: 30px;
+  letter-spacing: -0.03em;
+}
+
+.btn {
+  display: block;
+  width: 255px;
+  height: 67px;
+  border-radius: 5px;
+  background-color: #AD1818;
+  color: #fff;
+  text-align: center;
+  line-height: 67px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+}
