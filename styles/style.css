@@ -1,11 +1,29 @@
-.container {
-  font-family: 'Manrope', sans-serif;
-  width: 1150px;
+.wrapper {
+  width: 1400px;
   margin: 0 auto;
-  background: #fff;
+  font-family: 'Manrope', sans-serif;
 }
 
-.acquaintance-header {
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+  letter-spacing: -0.03em;
+}
+
+section {
+  margin-bottom: 150px;
+}
+
+/* Знакомство */
+
+.acquaintance__header {
   width: 956px;
   height: 120px;
   font-weight: 400;
@@ -15,18 +33,16 @@
   margin-bottom: 30px;
 }
 
-.acquaintance-back {
+.acquaintance__back {
   position: relative;
   background-image: url(../resurces/Rectangle\ 1.png);
   width: 1150px;
   height: 500px;
-  margin-bottom: 150px;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.aquaintance-description {
-  display: block;
+.aquaintance__description {
   position: absolute;
   width: 430px;
   height: 81px;
@@ -36,14 +52,9 @@
   font-size: 20px;
   line-height: 28px;
   color: #fff;
-  letter-spacing: -0.03em;
 }
 
-.about-us {
-  margin-bottom: 150px;
-}
-
-.about-us-header {
+.about__header {
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -51,7 +62,7 @@
   margin-bottom: 30px;
 }
 
-.about-us-descr {
+.about__descr {
   font-weight: 400;
   font-size: 45px;
   line-height: 62px;
@@ -59,10 +70,9 @@
   height: 366px;
   color: #121212;
   margin-bottom: 30px;
-  letter-spacing: -0.03em;
 }
 
-.btn {
+.about__btn {
   display: block;
   width: 255px;
   height: 67px;
@@ -74,4 +84,96 @@
   text-decoration: none;
   font-weight: 400;
   font-size: 20px;
+}
+
+/* ПРОЭКТЫ */
+
+
+.project-content {
+  margin-bottom: 90px;
+}
+
+.project__header {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #121212;
+}
+
+.project__image {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.project__descr {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  color: #121212;
+}
+
+.project__more {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-decoration: none;
+  color: #AD1818;
+}
+
+.project__btn {
+  padding: 56px 0;
+  width: 100%;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  font-family: 'Manrope', sans-serif;
+  text-align: center;
+  border: 1px solid #AD1818;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #AD1818;
+  cursor: pointer;
+}
+
+.project__btn:hover {
+  color: #fff;
+  background-color: #AD1818;
+}
+
+/* УСЛУГИ */
+
+.container-black {
+  background-color: #121212;
+}
+
+.services {
+  padding: 150px 0;
+}
+
+.services__header {
+  color: #fff;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+
+.service {
+  margin-bottom: 60px;
+}
+
+.service:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.services__picture {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.services-descr {
+  font-size: 30px;
+  line-height: 41px;
+  color: #fff;
 }
