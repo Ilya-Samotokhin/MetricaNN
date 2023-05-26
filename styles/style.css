@@ -32,7 +32,7 @@ section {
   width: 956px;
   height: 120px;
   font-weight: 400;
-  font-size: 55px;
+  font-size: 60px;
   line-height: 60px;
   color: #121212;
 }
@@ -63,7 +63,6 @@ section {
   font-size: 18px;
   line-height: 25px;
   color: #121212;
-
 }
 
 .about__descr {
@@ -99,7 +98,7 @@ section {
 /* ПРОЭКТЫ */
 
 
-.project-content {
+.project__content {
   margin-bottom: 90px;
 }
 
@@ -113,8 +112,8 @@ section {
 }
 
 .project__image {
-  width: 100%;
   margin-bottom: 15px;
+  width: 100%;
 }
 
 .project__descr {
@@ -134,18 +133,19 @@ section {
 }
 
 .project__btn {
+  display: block;
   padding: 56px 0;
   width: 100%;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 41px;
-  font-family: 'Manrope', sans-serif;
-  text-align: center;
   border: 1px solid #AD1818;
   border-radius: 5px;
   background-color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
   color: #AD1818;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .project__btn:hover {
@@ -178,8 +178,9 @@ section {
 }
 
 .services__picture {
-  width: 100%;
   margin-bottom: 15px;
+  width: 100%;
+
 }
 
 .services-descr {
