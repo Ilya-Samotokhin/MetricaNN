@@ -1,6 +1,6 @@
 .wrapper {
-  width: 1400px;
   margin: 0 auto;
+  width: 1400px;
   font-family: 'Manrope', sans-serif;
 }
 
@@ -21,6 +21,11 @@ section {
   margin-bottom: 150px;
 }
 
+
+.indent-short {
+  margin-bottom: 30px;
+}
+
 /* Знакомство */
 
 .acquaintance__header {
@@ -30,7 +35,6 @@ section {
   font-size: 55px;
   line-height: 60px;
   color: #121212;
-  margin-bottom: 30px;
 }
 
 .acquaintance__back {
@@ -59,7 +63,7 @@ section {
   font-size: 18px;
   line-height: 25px;
   color: #121212;
-  margin-bottom: 30px;
+
 }
 
 .about__descr {
@@ -69,7 +73,6 @@ section {
   width: 1048px;
   height: 366px;
   color: #121212;
-  margin-bottom: 30px;
 }
 
 .about__btn {
@@ -85,6 +88,13 @@ section {
   font-weight: 400;
   font-size: 20px;
 }
+
+.about__btn:hover {
+  color: #AD1818;
+  background-color: #fff;
+  border: 1px solid #AD1818;
+}
+
 
 /* ПРОЭКТЫ */
 
@@ -154,9 +164,9 @@ section {
 }
 
 .services__header {
-  color: #fff;
   margin-bottom: 35px;
   text-transform: uppercase;
+  color: #fff;
 }
 
 .service {
