@@ -1,13 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .wrapper {
   margin: 0 auto;
   width: 1400px;
   font-family: 'Manrope', sans-serif;
 }
 
-.container {
-  width: 1150px;
-  margin: 0 auto;
-}
 
 h1,
 h2,
@@ -18,12 +18,56 @@ a {
 }
 
 section {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+section:not(:first-child) {
   margin-bottom: 150px;
+
 }
 
 
 .indent-short {
   margin-bottom: 30px;
+}
+
+/* Навигация */
+
+.nav-container {
+  position: relative;
+  margin: 33px 0 70px 0;
+}
+
+.logo-link {
+  display: inline-block;
+}
+
+.nav-wrapper {
+  position: absolute;
+  display: inline-block;
+  right: 0px;
+}
+
+.nav-link {
+  display: inline-block;
+}
+
+.nav-link:not(:last-child) {
+  margin-right: 60px;
+}
+
+.nav-link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid #000;
+}
+
+.nav {
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #121212;
 }
 
 /* Знакомство */
@@ -155,7 +199,7 @@ section {
 
 /* УСЛУГИ */
 
-.container-black {
+.section-black {
   background-color: #121212;
 }
 
@@ -188,3 +232,5 @@ section {
   line-height: 41px;
   color: #fff;
 }
+
+/* Контакты */
