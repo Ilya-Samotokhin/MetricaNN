@@ -1,11 +1,12 @@
 html {
   scroll-behavior: smooth;
+  font-family: 'Manrope', sans-serif;
+
 }
 
+header,
 .wrapper {
   margin: 0 auto;
-  width: 1400px;
-  font-family: 'Manrope', sans-serif;
 }
 
 
@@ -13,20 +14,29 @@ h1,
 h2,
 h3,
 p,
-a {
+a,
+div {
   letter-spacing: -0.03em;
 }
 
 section {
   width: 1150px;
   margin: 0 auto;
+
 }
 
-section:not(:first-child) {
+header {
+  padding-top: 33px;
+  margin-bottom: 70px;
+}
+
+footer {
+  padding: 60px 0 30px;
+}
+
+.indent__long {
   margin-bottom: 150px;
-
 }
-
 
 .indent-short {
   margin-bottom: 30px;
@@ -34,41 +44,34 @@ section:not(:first-child) {
 
 /* Навигация */
 
-.nav-container {
-  position: relative;
-  margin: 33px 0 70px 0;
+
+
+.section__header {
+  margin-bottom: 0;
 }
 
-.logo-link {
-  display: inline-block;
-}
-
-.nav-wrapper {
-  position: absolute;
-  display: inline-block;
-  right: 0px;
-}
-
-.nav-link {
-  display: inline-block;
-}
-
-.nav-link:not(:last-child) {
-  margin-right: 60px;
-}
-
-.nav-link:hover {
-  opacity: 0.5;
-  border-bottom: 1px solid #000;
-}
 
 .nav {
+  float: right;
+}
+
+.nav__link {
   font-size: 18px;
   line-height: 25px;
   text-decoration: none;
   text-transform: uppercase;
   color: #121212;
 }
+
+.nav__link:not(:last-child) {
+  margin-right: 60px;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
 
 /* Знакомство */
 
@@ -257,11 +260,6 @@ section:not(:first-child) {
 
 /* Контакты */
 
-.contacts {
-  margin-left: 125px;
-  width: 473px;
-}
-
 .contacts__header {
   margin-bottom: 32px;
   position: relative;
@@ -284,26 +282,64 @@ section:not(:first-child) {
   background-repeat: no-repeat;
 }
 
-.contacts__text {
+.contacts__phone {
+  margin-bottom: 30px;
   display: block;
+  width: 472px;
   font-size: 60px;
   line-height: 60px;
   text-decoration: none;
   color: #121212;
 }
 
-.contacts__text:first-child {
-  margin-bottom: 30px;
+.contacts__email {
+  font-size: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  color: #121212;
 }
 
-.contacts__text:hover {
+
+
+.contacts__phone:hover,
+.contacts__email:hover {
   opacity: 0.5;
   border-bottom: 1px solid #000;
 }
 
 /* Ноги */
 
-.section__footer {
+.footer__nav {
+  width: 450px;
+  margin: auto;
+  margin-bottom: 87px;
+}
+
+.footer__link {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer__link:not(:last-child) {
+  margin-right: 50px;
+}
+
+.footer__link:hover {
+  opacity: 0.5;
+}
+
+.footer-title {
+  text-align: center;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+/* .section__footer {
   padding: 60px 0 30px;
 }
 
@@ -345,4 +381,4 @@ section:not(:first-child) {
   color: #fff;
   opacity: 0.5;
 
-}
+} */

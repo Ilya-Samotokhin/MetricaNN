@@ -15,23 +15,23 @@
 
 <body>
 
-  <main class="wrapper">
-
-    <section class="nav-section">
-      <nav class="nav-container">
-        <a href="/" class="logo-link">
-          <img src="resurces/logo.png" class="logo" alt="метрика-логотип">
-        </a>
-        <ul class="nav-wrapper">
-          <li class="nav-link"><a href="#about" class="nav">О нас</a></li>
-          <li class="nav-link"><a href="#projects" class="nav">Проекты</a></li>
-          <li class="nav-link"><a href="#services" class="nav">Услуги</a></li>
-          <li class="nav-link"><a href="#contacts" class="nav">Контакты</a></li>
-        </ul>
+  <header>
+    <section>
+      <a href="/" class="logo-link">
+        <img src="resurces/logo.png" class="logo" alt="метрика-логотип">
+      </a>
+      <nav class="nav">
+        <a href="#about" class="nav__link">О нас</a>
+        <a href="#projects" class="nav__link">Проекты</a>
+        <a href="#services" class="nav__link">Услуги</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
       </nav>
     </section>
+  </header>
 
-    <section>
+  <main class="wrapper">
+
+    <section class="indent__long">
       <h1 class="acquaintance__header indent-short">Современные и стильные интерьеры для комфортной жизни</h1>
       <div class="acquaintance__back">
         <p class="aquaintance__description">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся
@@ -40,7 +40,7 @@
       </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="indent__long">
       <h2 class="about__header indent-short">О НАС</h2>
       <p class="about__descr indent-short">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации
         интерьеров.
@@ -52,7 +52,7 @@
       <a href="/" class="about__btn">Посмотреть услуги</a>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="indent__long">
       <h2 class="project__header indent-short">Проекты</h2>
       <ul class="projects">
         <li class="project__content">
@@ -107,24 +107,22 @@
       </section>
     </div>
 
-    <section id="contacts" class="contacts">
+    <section id="contacts" class="indent__long">
       <h2 class="contacts__header">Контакты</h2>
       <div class="contacts-descr">
-        <a href="tel:+79358954535" class="contacts__text">+7 935 895-45-35</a>
-        <a href="mailto:hello@mail.com" class="contacts__text">hello@mail.com</a>
+        <a href="tel:+79358954535" class="contacts__phone">+7 935 895-45-35</a>
+        <a href="mailto:hello@mail.com" class="contacts__email">hello@mail.com</a>
       </div>
     </section>
 
     <footer class="section-black">
-      <section class="section__footer">
-        <ul class="footer__nav">
-          <li class="footer__list"><a href="#about" class="footer__link">О нас</a></li>
-          <li class="footer__list"><a href="#projects" class="footer__link">Проекты</a></li>
-          <li class="footer__list"><a href="#services" class="footer__link">Услуги</a></li>
-          <li class="footer__list"><a href="#contacts" class="footer__link">Контакты</a></li>
-        </ul>
-        <h2 class="footer__header">студия дизайна интерьера Метрика — 2023</h2>
-      </section>
+      <nav class="footer__nav">
+        <a href="#about" class="footer__link">О нас</a>
+        <a href="#projects" class="footer__link">Проекты</a>
+        <a href="#services" class="footer__link">Услуги</a>
+        <a href="#contacts" class="footer__link">Контакты</a>
+      </nav>
+      <p class="footer-title">студия дизайна интерьера Метрика — 2023</p>
     </footer>
 
   </main>
