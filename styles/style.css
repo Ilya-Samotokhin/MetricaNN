@@ -64,7 +64,7 @@ footer {
 }
 
 .nav__link:not(:last-child) {
-  margin-right: 60px;
+  margin-right: 58px;
 }
 
 .nav__link:hover {
@@ -96,7 +96,7 @@ footer {
 .aquaintance__description {
   position: absolute;
   width: 430px;
-  height: 81px;
+  height: 83px;
   left: 40px;
   bottom: 40px;
   font-weight: 400;
@@ -113,9 +113,10 @@ footer {
 }
 
 .about__descr {
+  padding-left: 2px;
   font-weight: 400;
   font-size: 45px;
-  line-height: 62px;
+  line-height: 61px;
   width: 1048px;
   height: 366px;
   color: #121212;
@@ -146,7 +147,7 @@ footer {
 
 
 .project__content {
-  margin-bottom: 90px;
+  margin-bottom: 89px;
 }
 
 .project__header {
@@ -167,7 +168,7 @@ footer {
   margin-bottom: 15px;
   font-weight: 400;
   font-size: 30px;
-  line-height: 41px;
+  line-height: 39px;
   color: #121212;
 }
 
@@ -207,12 +208,14 @@ footer {
 }
 
 .services {
-  padding: 150px 0;
+  padding: 149px 0;
 }
 
 .services__header {
   margin-bottom: 35px;
   text-transform: uppercase;
+  font-size: 18px;
+  line-height: 25px;
   color: #fff;
 }
 
@@ -231,8 +234,9 @@ footer {
 }
 
 .services-descr {
+  padding-left: 4px;
   font-size: 30px;
-  line-height: 41px;
+  line-height: 39px;
   color: #fff;
 }
 
@@ -254,11 +258,14 @@ footer {
   width: 443px;
   font-size: 30px;
   line-height: 41px;
-  letter-spacing: -0.03em;
   color: #fff;
 }
 
 /* Контакты */
+
+.contacts {
+  padding-bottom: 10px;
+}
 
 .contacts__header {
   margin-bottom: 32px;
@@ -273,7 +280,7 @@ footer {
   content: '';
   position: absolute;
   display: block;
-  top: -30px;
+  top: -36px;
   left: -4px;
   width: 24px;
   height: 24px;
@@ -285,8 +292,8 @@ footer {
 .contacts__phone {
   margin-bottom: 30px;
   display: block;
-  width: 472px;
-  font-size: 60px;
+  width: 474px;
+  font-size: 62px;
   line-height: 60px;
   text-decoration: none;
   color: #121212;
@@ -310,7 +317,7 @@ footer {
 /* Ноги */
 
 .footer__nav {
-  width: 450px;
+  width: 454px;
   margin: auto;
   margin-bottom: 87px;
 }
@@ -324,7 +331,7 @@ footer {
 }
 
 .footer__link:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 51px;
 }
 
 .footer__link:hover {
@@ -338,47 +345,3 @@ footer {
   color: #FFFFFF;
   opacity: 0.5;
 }
-
-/* .section__footer {
-  padding: 60px 0 30px;
-}
-
-
-.footer__nav {
-  margin: 0 auto;
-  margin-bottom: 87px;
-  width: 460px;
-}
-
-.footer__list {
-  display: inline-block;
-
-}
-
-.footer__list:not(:last-child) {
-  margin-right: 54px;
-}
-
-.footer__link {
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fff;
-}
-
-.footer__link:hover {
-  opacity: 0.5;
-}
-
-
-
-
-.footer__header {
-  font-size: 20px;
-  line-height: 27px;
-  text-align: center;
-  color: #fff;
-  opacity: 0.5;
-
-} */
