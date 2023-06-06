@@ -6,6 +6,7 @@ html {
 
 header,
 .wrapper {
+  min-width: 1400px;
   margin: 0 auto;
 }
 
@@ -161,7 +162,6 @@ footer {
 
 .project__image {
   margin-bottom: 15px;
-  width: 100%;
 }
 
 .project__descr {
@@ -229,8 +229,6 @@ footer {
 
 .services__picture {
   margin-bottom: 15px;
-  width: 100%;
-
 }
 
 .services-descr {
@@ -317,7 +315,7 @@ footer {
 /* Ноги */
 
 .footer__nav {
-  width: 454px;
+  width: 457px;
   margin: auto;
   margin-bottom: 87px;
 }
