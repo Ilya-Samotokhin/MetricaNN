@@ -1,7 +1,7 @@
 html {
   scroll-behavior: smooth;
   font-family: 'Manrope', sans-serif;
-
+  font-weight: 400;
 }
 
 header,
@@ -35,6 +35,14 @@ header {
 footer {
   padding: 60px 0 30px;
 }
+
+.header {
+  font-size: 18px;
+  line-height: 25px;
+  color: #121212;
+  text-transform: uppercase;
+}
+
 
 .indent__long {
   margin-bottom: 150px;
@@ -80,7 +88,6 @@ footer {
 .acquaintance__header {
   width: 956px;
   height: 120px;
-  font-weight: 400;
   font-size: 60px;
   line-height: 60px;
   color: #121212;
@@ -89,7 +96,6 @@ footer {
 .acquaintance__back {
   position: relative;
   background-image: url(../resurces/Rectangle\ 1.png);
-  width: 1150px;
   height: 500px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -101,22 +107,13 @@ footer {
   height: 83px;
   left: 40px;
   bottom: 40px;
-  font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   color: #fff;
 }
 
-.about__header {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  color: #121212;
-}
-
 .about__descr {
   padding-left: 2px;
-  font-weight: 400;
   font-size: 45px;
   line-height: 61px;
   width: 1048px;
@@ -134,7 +131,6 @@ footer {
   text-align: center;
   line-height: 67px;
   text-decoration: none;
-  font-weight: 400;
   font-size: 20px;
 }
 
@@ -152,29 +148,18 @@ footer {
   margin-bottom: 89px;
 }
 
-.project__header {
-  margin-bottom: 30px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: uppercase;
-  color: #121212;
-}
-
 .project__image {
   margin-bottom: 15px;
 }
 
 .project__descr {
   margin-bottom: 15px;
-  font-weight: 400;
   font-size: 30px;
   line-height: 39px;
   color: #121212;
 }
 
 .project__more {
-  font-weight: 400;
   font-size: 20px;
   line-height: 27px;
   text-decoration: none;
@@ -188,7 +173,6 @@ footer {
   border: 1px solid #AD1818;
   border-radius: 5px;
   background-color: #fff;
-  font-weight: 400;
   font-size: 30px;
   line-height: 41px;
   text-align: center;
@@ -214,9 +198,6 @@ footer {
 
 .services__header {
   margin-bottom: 35px;
-  text-transform: uppercase;
-  font-size: 18px;
-  line-height: 25px;
   color: #fff;
 }
 
@@ -241,7 +222,7 @@ footer {
 
 /* Большая картинка */
 
-.big-picture {
+.fullscreen-image {
   position: relative;
   margin-bottom: 186px;
   height: 717px;
@@ -251,7 +232,7 @@ footer {
   background-position: 50%;
 }
 
-.big-picture__text {
+.fullscreen-image__text {
   position: absolute;
   bottom: 60px;
   width: 443px;
@@ -269,10 +250,6 @@ footer {
 .contacts__header {
   margin-bottom: 32px;
   position: relative;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: uppercase;
-  color: #121212;
 }
 
 .contacts__header::before {
