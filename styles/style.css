@@ -21,7 +21,7 @@ div {
   letter-spacing: -0.03em;
 }
 
-section {
+.container {
   width: 1150px;
   margin: 0 auto;
 
@@ -33,6 +33,7 @@ header {
 
 footer {
   padding: 60px 0 30px;
+  background-color: #121212;
 }
 
 .header {
@@ -187,12 +188,9 @@ footer {
 
 /* УСЛУГИ */
 
-.section-black {
-  background-color: #121212;
-}
-
 .services {
   padding: 149px 0;
+  background-color: #121212;
 }
 
 .services__header {
