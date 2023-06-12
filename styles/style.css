@@ -28,8 +28,7 @@ section {
 }
 
 header {
-  padding-top: 33px;
-  margin-bottom: 70px;
+  padding: 33px 0 70px;
 }
 
 footer {
@@ -205,7 +204,7 @@ footer {
   margin-bottom: 60px;
 }
 
-.service:nth-last-child(1) {
+.service:last-child {
   margin-bottom: 0;
 }
 
@@ -226,7 +225,7 @@ footer {
   position: relative;
   margin-bottom: 186px;
   height: 717px;
-  background-image: url(../resurces/Big-picture.jpg);
+  background-image: url(../resurces/bed-on-gray.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -265,27 +264,22 @@ footer {
   background-repeat: no-repeat;
 }
 
-.contacts__phone {
+.contacts__items {
   margin-bottom: 30px;
-  display: block;
-  width: 474px;
-  font-size: 62px;
-  line-height: 60px;
-  text-decoration: none;
-  color: #121212;
 }
 
-.contacts__email {
+.contacts__item {
   font-size: 60px;
   line-height: 60px;
   text-decoration: none;
   color: #121212;
 }
 
+.contacts__phone {
+  letter-spacing: -1px;
+}
 
-
-.contacts__phone:hover,
-.contacts__email:hover {
+.contacts__item:hover {
   opacity: 0.5;
   border-bottom: 1px solid #000;
 }
