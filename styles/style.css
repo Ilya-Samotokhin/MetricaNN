@@ -36,6 +36,10 @@ footer {
   background-color: #121212;
 }
 
+section {
+  margin-bottom: 150px;
+}
+
 .header {
   font-size: 18px;
   line-height: 25px;
@@ -43,23 +47,11 @@ footer {
   text-transform: uppercase;
 }
 
-
-.indent__long {
-  margin-bottom: 150px;
-}
-
-.indent-short {
+.heading-indent {
   margin-bottom: 30px;
 }
 
 /* Навигация */
-
-
-
-.section__header {
-  margin-bottom: 0;
-}
-
 
 .nav {
   float: right;
@@ -86,6 +78,7 @@ footer {
 /* Знакомство */
 
 .acquaintance__header {
+  margin-bottom: 30px;
   width: 956px;
   height: 120px;
   font-size: 60px;
@@ -93,7 +86,7 @@ footer {
   color: #121212;
 }
 
-.acquaintance__back {
+.acquaintance__image {
   position: relative;
   background-image: url(../resurces/Rectangle\ 1.png);
   height: 500px;
@@ -101,7 +94,7 @@ footer {
   background-repeat: no-repeat;
 }
 
-.aquaintance__description {
+.acquaintance__description {
   position: absolute;
   width: 430px;
   height: 83px;
@@ -113,6 +106,7 @@ footer {
 }
 
 .about__descr {
+  margin-bottom: 30px;
   padding-left: 2px;
   font-size: 45px;
   line-height: 61px;
@@ -191,18 +185,19 @@ footer {
 .services {
   padding: 149px 0;
   background-color: #121212;
+  margin-bottom: 0;
 }
 
-.services__header {
+.services .header {
   margin-bottom: 35px;
   color: #fff;
 }
 
-.service {
+.services__content {
   margin-bottom: 60px;
 }
 
-.service:last-child {
+.services__content:last-child {
   margin-bottom: 0;
 }
 
@@ -210,7 +205,7 @@ footer {
   margin-bottom: 15px;
 }
 
-.services-descr {
+.services__descr {
   padding-left: 4px;
   font-size: 30px;
   line-height: 39px;
@@ -219,7 +214,7 @@ footer {
 
 /* Большая картинка */
 
-.fullscreen-image {
+.fullWidthImage {
   position: relative;
   margin-bottom: 186px;
   height: 717px;
@@ -229,7 +224,7 @@ footer {
   background-position: 50%;
 }
 
-.fullscreen-image__text {
+.fullWidthImage__text {
   position: absolute;
   bottom: 60px;
   width: 443px;
