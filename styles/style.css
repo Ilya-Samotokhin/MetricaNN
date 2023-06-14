@@ -40,7 +40,7 @@ section {
   margin-bottom: 150px;
 }
 
-.header {
+.title {
   font-size: 18px;
   line-height: 25px;
   color: #121212;
@@ -77,7 +77,7 @@ section {
 
 /* Знакомство */
 
-.acquaintance__header {
+.acquaintance__title {
   margin-bottom: 30px;
   width: 956px;
   height: 120px;
@@ -104,6 +104,8 @@ section {
   line-height: 28px;
   color: #fff;
 }
+
+/* О НАС */
 
 .about__descr {
   margin-bottom: 30px;
@@ -188,7 +190,7 @@ section {
   margin-bottom: 0;
 }
 
-.services .header {
+.services .title {
   margin-bottom: 35px;
   color: #fff;
 }
@@ -239,12 +241,12 @@ section {
   padding-bottom: 10px;
 }
 
-.contacts__header {
+.contacts h2 {
   margin-bottom: 32px;
   position: relative;
 }
 
-.contacts__header::before {
+.contacts h2::before {
   content: '';
   position: absolute;
   display: block;
